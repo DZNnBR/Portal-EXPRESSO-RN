@@ -23,3 +23,11 @@ __pycache__/
 /content/
 /INSTALACAO-NO-SERVIDOR.txt
 /scripts/edicao-estadual.py
+# WordPress shipped with this edition; the machine-specific configuration stays local.
+!/site/wp-admin/
+!/site/wp-includes/
+!/site/wp-*.php
+!/site/index.php
+!/site/xmlrpc.php
+!/site/license.txt
+/site/wp-config.php
