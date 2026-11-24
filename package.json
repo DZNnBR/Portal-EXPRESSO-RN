@@ -1,0 +1,15 @@
+{
+  "name": "portal-expresso-rn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal de notícias do Rio Grande do Norte em WordPress com Elementor.",
+  "scripts": {
+    "start": "wp-playground-cli start --path=site --blueprint=blueprint.json --port=8080",
+    "start:quiet": "wp-playground-cli start --path=site --blueprint=blueprint.json --port=8080 --skip-browser",
+    "validate:php": "wp-playground-cli php -r \"echo 'PHP Playground OK';\"",
+    "check": "node scripts/check-project.mjs"
+  },
+  "devDependencies": {
+    "@wp-playground/cli": "3.1.58"
+  }
+}

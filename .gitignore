@@ -1,0 +1,25 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.log
+*.sql
+*.sqlite*
+*.wpress
+*.zip
+__pycache__/
+# Only the portal and its required WordPress components belong in Git.
+/site/*
+!/site/wp-content/
+/site/wp-content/*
+!/site/wp-content/mu-plugins/
+!/site/wp-content/themes/
+!/site/wp-content/plugins/
+!/site/wp-content/languages/
+/site/wp-content/themes/*
+!/site/wp-content/themes/diario-do-trairi/
+/site/wp-content/plugins/*
+!/site/wp-content/plugins/elementor/
+/content/
+/INSTALACAO-NO-SERVIDOR.txt
+/scripts/edicao-estadual.py

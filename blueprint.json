@@ -1,0 +1,44 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "Portal Expresso RN",
+    "description": "Portal estadual do Rio Grande do Norte com Elementor e tema editorial próprio.",
+    "author": "Portal Expresso RN"
+  },
+  "landingPage": "/",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+        "WP_DEBUG": false,
+        "WP_DEBUG_DISPLAY": false,
+        "SCRIPT_DEBUG": false
+      }
+    },
+    {
+      "step": "activateTheme",
+      "themeFolderName": "diario-do-trairi"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require_once '/wordpress/wp-load.php'; if ( function_exists( 'dt_run_initial_setup' ) ) { dt_run_initial_setup(); } update_option( 'blogname', 'Portal Expresso RN' ); update_option( 'timezone_string', 'America/Fortaleza' ); update_option( 'WPLANG', 'pt_BR' ); flush_rewrite_rules(); ?>"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginName": "Elementor",
+      "pluginPath": "elementor/elementor.php"
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    }
+  ]
+}
