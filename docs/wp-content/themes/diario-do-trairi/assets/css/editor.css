@@ -1,0 +1,4 @@
+:root { --dt-navy:#12324a; --dt-blue:#176b91; --dt-ink:#17212b; }
+.editor-styles-wrapper { color:var(--dt-ink); font-family:"Source Sans 3","Helvetica Neue",sans-serif; font-size:18px; line-height:1.65; }
+.editor-styles-wrapper h1,.editor-styles-wrapper h2,.editor-styles-wrapper h3 { color:var(--dt-navy); font-weight:800; line-height:1.15; }
+.editor-styles-wrapper a { color:var(--dt-blue); }

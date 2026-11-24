@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Portal Expresso RN</title>
+  <desc id="desc">Imagem editorial neutra em tons de azul, verde e areia.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1D8B65"/><stop offset="1" stop-color="#153D35"/></linearGradient></defs>
+  <rect width="640" height="400" fill="url(#g)"/>
+  <circle cx="505" cy="72" r="118" fill="#F3F3F1" opacity=".18"/>
+  <path d="M0 302C108 249 168 330 276 272s190-38 364 35v93H0z" fill="#F3F3F1" opacity=".28"/>
+  <path d="M0 331c117-39 188 20 288-12s190-29 352 22v59H0z" fill="#fff" opacity=".13"/>
+  <path d="M44 64h96v6H44zm0 18h184v3H44z" fill="#fff" opacity=".8"/>
+</svg>
